@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>About</title>
+    <link rel = "icon" href = "dccircle.png" type = "image/x-icon">
+    <link rel="stylesheet" href="About.css">
+    </head>
+    <body>
+        <div class="container-fluid sticky-top THEHEADER">
+            <div class="row">
+                <div style="margin-top: 1rem;" class="col-10 col-sm-10 col-md-8 col-lg-9 col-xl-9 col-xxl-9"><p class="h4"><a href="Homepage.html">SNEAKER CULTURE</a></p></div>
+                
+                <div  style="margin-top: 1rem;"  id="BurgerNav" class="col-2 col-sm-2 col-sm-pull-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" alt="" width="30" height="24" class="d-inline-block align-text-top" onclick="onClick()">
+                </div>
+                <div   style="margin-top: 1rem;" id="DropDownMenu" class="col-12 col-sm-12 col-md-4 col-sm-push-2 col-lg-3 col-xl-3 col-xxl-3">
+                    <ul id ="NavigationMenu"  style="display:none;">
+                    <li class="px-3" ><a href="Blog.html">Blog</a></li>
+                    <li class="px-3" ><a href="About.html"><u>About</u></a></li>
+                    <li class="px-3" ><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>`
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"  style="text-align: center">
+                <img id="Picture"src="manyshoes.jpg">
+                </div>
+                <div id ="Display" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <p id ="PageTitle"><strong>Philippine Sneaker</strong></p>
+                    <p id="FirstSentence">Over the years, the rise of hip-hop and celebrity culture has played a role in the sneaker obsession. Today, however, it can also be the younger generation’s desire for uniqueness that drives them towards it. Usually, prized pairs are collaborations between two premium brands, such as Dior and Prada. There are also sneakers designed by pop culture 
+                        figures like rapper Travis Scott and Grammy-winning artist Billie Eilish, to name a few.</p>
+
+                     <p id="SecondSentence">This blog started on Septmber 7, 2022 due to rapid growing of Philippine Sneaker Culture.
+                     </p>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="CollabContainer" style="position: relative;">
+            <img src="letscollab.jpg" style="width: 100%;">
+            <div id="CollabTitle"><p >Let's collab!</p></div>
+            <div id="ButtonCollab"><input class="btn-outline-dark"id="buttonareafield" type="submit" name="submit" value="CONTACT" /></div>
+            </div>
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <form action="" class="footer-left">
+                        <h4 class="contact-text">Get our weekly newsletter:</h4><br>
+                        <input type="Name" class="inputfield" placeholder="Your email address"><br>
+                        <button class="btn-text">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <ul class="footer-links">
+                    <li><a href="www.facebook.com"><img src="icon-facebook.png" class="icons"></a></li>
+                    <li><a href="www.instagram.com"><img src="icon-instagram.png" class="icons"></a></li>
+                    <li><a href="www.twitter.com"><img src="icon-twitter.png" class="icons"></a></li>
+                    </ul>
+                </div>
+            </div>
+           </footer>
+
+        <script>  
+            function onClick(){
+                var navigation = document.getElementById("NavigationMenu");
+
+                if (navigation.style.display === "none") 
+                {
+                    navigation.style.display = "flex";
+                }
+                else 
+                {
+                    navigation.style.display = "none";
+                }
+            }
+          </script>
+    </body>
+</html>

@@ -1,0 +1,330 @@
+.THEHEADER{
+    background-color: #A5C9CA;
+    margin-right: 0px;
+}
+body{
+    background-color: #E7F6F2;
+    margin: 0px;
+}
+
+.bg-top{
+    background-size: 100% 100% ;
+    width: 100%;
+    height: 100%;   
+}
+
+
+.Homepage-title{
+    text-align: center;
+    margin-top: 44%;
+    margin-left: 7%;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Homepage-title1{
+    text-align: center;
+    margin-top: auto;
+    margin-left: 5%;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}   
+.Homepage-title2{
+    text-align: center;
+    margin-top: auto;
+    margin-left: 13%;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}     
+.Homepage-description{
+    align-items: center;
+    text-align: justify;
+    padding: 25px;
+    font-size: 18px;
+    font-family: monospace,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} 
+.bg-1{
+    width: 300px;
+    background-position: center;
+    /*MARGIN-LEFT: 57%; */
+}
+.bg-2{
+    width: 300px;
+    background-position: center;
+    /*MARGIN-LEFT: 57%; */
+}
+.bg-3{
+    width: 300px;
+    background-position: center;
+    /*MARGIN-LEFT: 57%; */
+}
+.LATEST-POST{
+    background-color: #A5C9CA;
+    margin-right: 0px;
+}
+#POST-ROW{
+    margin-right: 0px;
+}
+.latest-post{
+    background-color:#A5C9CA;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px 0;
+    font-size: 37px;
+    font-weight: 400;
+    font-family: INHERIT;
+    text-align: center;
+}
+.blog-pic, .blog-pic1{
+    background-size: 80% 80% ;
+    width: 80%;
+    height: 80%;   
+}
+
+footer{
+    background-color:#A5C9CA;
+    width: 100%;
+    height: 350px;
+    padding: 15px 40px 0;
+}
+.footer-left{
+    padding-left: 20px;
+}
+.inputfield{
+    width: 70%;
+}
+button{
+    padding: 10px 25px;
+    margin-top: 5px;
+    background-color: rgb(51, 49, 47);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.READMORE{
+    text-align: center;
+    padding: 10px 25px;
+    margin-top: 5px;
+    position: relative;
+    left: 31%;
+    margin-bottom: 35px;
+    background-color: rgb(51, 49, 47);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.CONTAINER-TOP{
+    position: relative;
+    text-align: center;    
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.READMORE-TOP{
+    text-align: center;
+    padding: 10px 25px;
+    margin-bottom: 35px;
+    background-color: #2C3333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-text, .READMORE{
+    color: white;
+}
+.READMORE1{
+    color: white;
+}
+.PageTitle{
+    margin: 0px;
+    padding: 0px;
+}
+.icons{
+    width: 100%;
+    height: 30px;
+    width: 30px;
+}
+.footer-links{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 30px;
+}   
+.footer-links li{
+    padding: 20px 15px;
+}   
+
+#NavigationMenu ul{
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#BlogPics{
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .BurgerNav{
+        display: none;
+    }
+    #BurgerNav{
+        display: none;
+    }
+    #NavigationMenu{
+        display: flex !important;
+    }
+    #NavigationMenu{
+        display: flex;
+        flex-direction: row;
+    }     
+}
+@media (max-width: 576px){
+    .Homepage-title, .Homepage-title2, .Homepage-title1{
+        font-size: 65px;
+    }
+}
+@media(min-width: 577px){
+    .bg-1 {
+        width: 300px;
+        /* MARGIN-LEFT: 57%; */
+        position: relative;
+        left: 39%;
+    }
+    .Homepage-title1 {
+        text-align: center;
+        margin-top: 54%;
+        margin-left: 56%;
+        font-size: 70px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .bg-2 {
+        width: 300px;
+        background-position: center;
+        /* MARGIN-LEFT: 57%; */
+        position: relative;
+        left: 18%;
+    }
+    .Homepage-description {
+        padding: 20px;
+        font-size: 15px;
+        position: relative;
+        left: -44%;
+        top: 42%;
+    }
+    .Homepage-title2{
+        font-size: 70px;
+        margin-top: 32%;
+        margin-left: 17%;
+    }
+    .READMORE{
+        position: relative;
+        left: 31%;
+        margin-bottom: 35px;
+    }
+    
+} 
+/* LATEST POSTS */
+.blog-pic{
+    position: relative;
+    left: 16%;
+}
+/* LETS CHAT */
+#CHAT-PIC{
+    width: 300px;
+    width: 80%;
+}
+.LC-TEXT{
+    font-size: 80px;
+}
+
+@media(min-width: 578px){
+    .Homepage-title2{
+        position: relative;
+        left: 30%;
+    }
+    .READMORE{
+        position: relative;
+        left: -20%;
+        top: 30%;
+    }
+    .Homepage-description{
+        position: relative;
+        left: -44%;
+        top: 35%;
+    }
+
+}  
+@media(min-width: 1050px){
+    .Homepage-title {
+        text-align: center;
+        font-size: 185px;
+        margin-top: 150px;
+        margin-left: 16%;
+    }
+    .bg-1{
+        position: relative;
+        left: 59%;
+    }
+    .Homepage-title1 {
+        text-align: center;
+        font-size: 200px;
+        margin-top: 10%;
+        margin-left: -2%;
+    }
+    .bg-2{
+        position: relative;
+        left: 36%;
+    }
+    .Homepage-title2{
+        position: relative;
+        left: 42%;
+        top: -16%;
+        font-size: 200px;
+    }
+    .bg-3{
+        background-position: center;
+        margin-left: 18%;
+    }
+    .Homepage-description{
+        left: -32%;
+        top: 58%;
+    }
+    .READMORE{
+        left: 0%;
+        top: 54%;
+    }
+} 
+@media(max-width:426px){
+    .centered {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .READMORE-TOP {
+        text-align: center;
+        padding: 3px 3px;
+    }
+    #POST-ROW{
+        margin-left: 0px;
+    }
+    #QuestionText{
+        margin: 0 1rem;
+    }
+}

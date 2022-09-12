@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contact</title>
+    <link rel = "icon" href = "dccircle.png" type = "image/x-icon">
+    <link rel="stylesheet" href="Contact.css">
+    </head>
+    <body>
+              <div class="container-fluid sticky-top THEHEADER">
+                <div class="row">
+                    <div style="margin-top: 1rem;" class="col-10 col-sm-10 col-md-8 col-lg-9 col-xl-9 col-xxl-9"><p class="h4"><a href="Homepage.html">SNEAKER CULTURE</a></p></div>
+                    
+                    <div  style="margin-top: 1rem;"  id="BurgerNav" class="col-2 col-sm-2 col-sm-pull-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" alt="" width="30" height="24" class="d-inline-block align-text-top" onclick="onClick()">
+                    </div>
+                    <div   style="margin-top: 1rem;" id="DropDownMenu" class="col-12 col-sm-12 col-md-4 col-sm-push-2 col-lg-3 col-xl-3 col-xxl-3">
+                        <ul id ="NavigationMenu"  style="display:none;">
+                        <li class="px-3" ><a href="Blog.html">Blog</a></li>
+                        <li class="px-3" ><a href="About.html">About</a></li>
+                        <li class="px-3" ><a href="Contact.html"><u>Contact</u></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="margin-bottom: 5rem;">
+                <div class="row">
+                    <div id="FirstPanel" class="col-12 col-sm-12 col-md-6 ol-lg-6 col-xl-6 col-xxl-6">
+                        <p id ="PageTitle"><strong>Say Hello!</strong></p>
+                        <p id ="ContactDescription">Whether you're into sneakers or you want to start explore the sneaker world, don't hesitate to tell us. We are open for collaboration and new members.</p>
+                        <div class="InfoField">
+                        <span>Name*</span><br><input id="areafield" type ="text" name="first_name" placeholder="Name"/><br>
+                        <span>Last name*</span><br><input id="areafield"type ="text" name="first_name"placeholder="E-mail"/> <br>
+                        <span>Your email*</span><br><input id="areafield" type ="text" name="first_name" placeholder="Phone#"/><br>
+                        <span>Message*</span><br><textarea></textarea>
+                        <br>
+                        <input class="btn-dark"id="buttonareafield" type="submit" name="submit" value="SUBMIT" />
+                    </div>
+                    </div>
+                    <div id ="SecondPanel"class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <img src="contactus-pic.jpg" style="width: 100%; height: 90%">
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-md-8">
+                        <form action="" class="footer-left">
+                            <h4 class="contact-text">Get our weekly newsletter:</h4><br>
+                            <input type="Name" class="inputfield" placeholder="Your email address"><br>
+                            <button class="btn-text">SUBMIT</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="footer-links">
+                        <li><a href="www.facebook.com"><img src="icon-facebook.png" class="icons"></a></li>
+                        <li><a href="www.instagram.com"><img src="icon-instagram.png" class="icons"></a></li>
+                        <li><a href="www.twitter.com"><img src="icon-twitter.png" class="icons"></a></li>
+                        </ul>
+                    </div>
+                </div>
+               </footer>
+                <script>  
+                    function onClick(){
+                        var navigation = document.getElementById("NavigationMenu");
+        
+                        if (navigation.style.display === "none") 
+                        {
+                            navigation.style.display = "flex";
+                        }
+                        else 
+                        {
+                            navigation.style.display = "none";
+                        }
+                    }
+                  </script>
+    </body>
+    </html>

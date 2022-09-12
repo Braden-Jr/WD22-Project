@@ -1,0 +1,285 @@
+body{
+    background-color: #E7F6F2;
+}
+.THEHEADER{
+    background-color: #A5C9CA;
+    margin-right: 0px;
+}
+#NavigationMenu ul{
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+@media (min-width: 768px) {
+    .BurgerNav{
+        display: none;
+    }
+    #BurgerNav{
+        display: none;
+    }
+    #NavigationMenu{
+        display: flex !important;
+    }
+    #NavigationMenu{
+        display: flex;
+        flex-direction: row;
+    } 
+}
+
+
+
+
+#PageTitle{
+    font-size: 70px;
+}
+#CollabTitle{
+    font-size: 70px;
+    color: #fff; 
+}
+#Picture{
+    width: 100%;
+
+}
+
+footer{
+    background-color:#A5C9CA;
+    width: 100%;
+    height: 350px;
+    padding: 15px 40px 0;
+}
+.footer-left{
+    padding-left: 20px;
+}
+.inputfield{
+    width: 70%;
+}
+.icons{
+    width: 100%;
+    height: 30px;
+    width: 30px;
+}
+.footer-links{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 30px;
+}   
+.footer-links li{
+    padding: 20px 15px;
+}   
+
+button{
+    padding: 10px 25px;
+    margin-top: 5px;
+    background-color: rgb(51, 49, 47);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 1440px) {
+    #CollabTitle{
+        top: 40%;
+        position: absolute;
+        left: 5%;
+        margin: 0rem 40rem 0rem 0rem;
+    }
+    #ButtonCollab{
+        position: absolute;
+        left: 5%;
+        bottom: 40%;
+        width: 15%;
+        height: 8%;
+    }  
+    #Picture{
+        margin: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        height: 60%;
+    }
+    #TopSpace{
+        margin: 7rem 0 0 0;
+    }
+    #PageTitle{
+        position: absolute;
+        left: -9%;
+        margin: 0rem 24rem 0rem 0rem;
+    }
+    #FirstSentence{
+        margin: 15rem 2rem 0rem 4rem;
+    }
+    #SecondSentence{
+        margin: 2rem 2rem 0rem 4rem;
+    }
+    #buttonareafield{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .CollabContainer{
+        margin: -20rem 0rem 0rem 0rem;
+    } 
+    #Display{
+        position: relative;
+    }
+}
+@media (max-width: 1024px) {
+    #CollabTitle{
+        top: 35%;
+        position: absolute;
+        left: 5%;
+        margin: 0rem 40rem 0rem 0rem;
+    }
+    #TopSpace{
+        margin: 5rem 0 0 0;
+    }
+    #ButtonCollab{
+        position: absolute;
+        left: 5%;
+        bottom: 25%;
+        width: 15%;
+        height: 8%;
+    }  
+    #Picture{
+        margin: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        height: 90%;
+    }
+    #PageTitle{
+        position: absolute;
+        left: -10%;
+        margin: 0rem 15rem 0rem 0rem;
+    }
+    #FirstSentence{
+        margin: 15em 2rem 0rem 2rem;
+    }
+    #SecondSentence{
+        margin: 2rem;
+    }    
+    #Display{
+        position: relative;
+    }
+    #buttonareafield{
+        width: 100%;
+        height: 100%;
+    }
+    .CollabContainer{
+        margin: 5rem 0rem 0rem 0rem;
+    }
+}
+@media (max-width: 768px) {
+    #CollabTitle{
+        top: 15%;
+        position: absolute;
+        left: 30%;
+        margin: 0rem 14rem 0rem 0rem;
+    }
+    #ButtonCollab{
+        position: absolute;
+        left: 30%;
+        bottom: 28%;
+        width: 15%;
+        height: 8%;
+    }  
+    #Picture{
+        margin: 1rem 0rem 1rem 0rem;
+        width: 60%;
+    }
+    #PageTitle{
+        margin: 1rem 12rem;
+        position: static;
+    }
+    #FirstSentence{
+        margin: 1rem 12rem;
+    }
+    #SecondSentence{
+        margin: 2rem 12rem 0 12rem;
+    }
+    #buttonareafield{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 425px) {
+    .CollabContainer{
+        position: relative;
+    }
+    #CollabTitle{
+        top: 0;
+        left: 41px;
+        position: absolute;
+    }
+    #ButtonCollab{
+        position: absolute;
+        left: 50px;
+        bottom: 20px;
+        height: 15%;
+        bottom: 13%;
+        width: 25%;
+    }  
+    #Picture{
+        width: 100%;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    #PageTitle{
+        margin: 0rem 1rem 1rem 1rem;
+        position: static;
+    }
+    #FirstSentence{
+        margin: 2rem 1rem;
+    }
+    #SecondSentence{
+        margin: 1rem 1rem 0 1rem;
+    }
+    #buttonareafield{
+        width: 100%;
+        height: 100%;
+    }
+
+}  
+@media (max-width: 320px) {
+    .CollabContainer{
+        position: relative;
+    }
+    #CollabTitle{
+        top: -18px;
+        left: 41px;
+        position: absolute;
+    }
+    #ButtonCollab{
+        position: absolute;
+        left: 50px;
+        bottom: 3px;
+        width: 35%;
+    }  
+    #Picture{
+        width: 100%;
+        margin: 1rem 0rem 1rem 0rem;
+        position: block;
+    }
+    #PageTitle{
+        margin: 0rem 1rem 1rem 1rem;
+        position: static;
+    }
+    #FirstSentence{
+        margin: 2rem 1rem;
+    }
+    #SecondSentence{
+        margin: 1rem 1rem 0 1rem;
+    }
+    #buttonareafield{
+        width: 100%;
+        height: 100%;
+    }
+
+}  

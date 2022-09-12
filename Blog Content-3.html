@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Blog</title>
+    <link rel = "icon" href = "dccircle.png" type = "image/x-icon">
+    <link rel="stylesheet" href="Blog Content.css">
+    </head>
+    <body>
+        <div class="container-fluid sticky-top THEHEADER">
+            <div class="row">
+                <div style="margin-top: 1rem;" class="col-10 col-sm-10 col-md-8 col-lg-9 col-xl-9 col-xxl-9"><p class="h4"><a href="Homepage.html">SNEAKER CULTURE</a></p></div>
+                
+                <div  style="margin-top: 1rem;"  id="BurgerNav" class="col-2 col-sm-2 col-sm-pull-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" alt="" width="30" height="24" class="d-inline-block align-text-top" onclick="onClick()">
+                </div>
+                <div   style="margin-top: 1rem;" id="DropDownMenu" class="col-12 col-sm-12 col-md-4 col-sm-push-2 col-lg-3 col-xl-3 col-xxl-3">
+                    <ul id ="NavigationMenu"  style="display:none;">
+                    <li class="px-3" ><a href="Blog.html">Blog</a></li>
+                    <li class="px-3" ><a href="About.html">About</a></li>
+                    <li class="px-3" ><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container-fluid">
+            <div class="row">      
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <p id= "TextSpacing" class="h4">Martin David on the Heart and Sole of Philippine Sneaker Culture</p>
+                        <p id= "SubTitle">08/09/2022 · 1 min read</p>
+                    </div>
+                </div> 
+         
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 content-BLOG">
+                            <p class="text-justify content-BLOG ">On Oct. 25, 2014, the first-ever Manila Sneaker Expo took place. That year, Yeezy was still with Nike, unveiling the famous and highly-priced Nike Yeezy Red October. The Adidas Pure Boost was just released. The Kobe 9 Elite High was made public while Kobe Bryant was on his last couple of seasons in the NBA. In the Philippines, the sneaker game was in its adolescent period; the lines were long during sneaker releases, 
+                                but at least the overnight isaw-like lines were less prevalent.</p>
+                        </div>    
+
+                <div id="BlogContainer"class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <p class="text-center"><img class="BLOGPIC" src="blogpic2.jpeg" ></p>
+                </div>    
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 content-BLOG">
+                    <p class="text-justify">This year, the Manila Sneaker Expo made a comeback after a two-year hiatus due to the pandemic. The “isaw”-like lines also made a comeback, but this time in a bigger and better venue. The 2022 Manila Sneaker Expo last April 24 packed the SMX Convention Center with sneakers, streetwear apparel, and people from literally—and figuratively—all walks of life. Upon entering the venue, an influx of fashion bravado filled the room, and attendees were all conscious 
+                        of not stepping on each other’s prized possessions as all were looking down for obvious reasons. t seems as if Manila Sneaker Expo became the grounds for showcasing sneakers purchased during the pandemic but never saw sunlight due to the lockdown. If you sit on the floor, the passersby will grant you a free sneaker fashion show. You can even score a pair of your own as almost all models from major casual and athletic footwear brands were available for attendees to purchase. Although, the mean price would be somewhere around P8,000 to 
+                        P10,000, with one pair reaching P95,000 (Travis Scott Air Jordan 1 Low Dark Mocha).</p>    
+                </div>  
+
+            </div>    
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <form action="" class="footer-left">
+                        <h4 class="contact-text">Get our weekly newsletter:</h4><br>
+                        <input type="Name" class="inputfield" placeholder="Your email address"><br>
+                        <button class="btn-text">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <ul class="footer-links">
+                    <li><a href="www.facebook.com"><img src="icon-facebook.png" class="icons"></a></li>
+                    <li><a href="www.instagram.com"><img src="icon-instagram.png" class="icons"></a></li>
+                    <li><a href="www.twitter.com"><img src="icon-twitter.png" class="icons"></a></li>
+                    </ul>
+                </div>
+            </div>
+           </footer>
+        
+           <script>  
+                function onClick(){
+                    var navigation = document.getElementById("NavigationMenu");
+
+                    if (navigation.style.display === "none") 
+                    {
+                        navigation.style.display = "flex";
+                    }
+                    else 
+                    {
+                        navigation.style.display = "none";
+                    }
+                }
+          </script>
+    </body>
+</html>

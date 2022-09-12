@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Blog</title>
+    <link rel = "icon" href = "dccircle.png" type = "image/x-icon">
+    <link rel="stylesheet" href="Blog Content.css">
+    </head>
+    <body>
+        <div class="container-fluid sticky-top THEHEADER">
+            <div class="row">
+                <div style="margin-top: 1rem;" class="col-10 col-sm-10 col-md-8 col-lg-9 col-xl-9 col-xxl-9"><p class="h4"><a href="Homepage.html">SNEAKER CULTURE</a></p></div>
+                
+                <div  style="margin-top: 1rem;"  id="BurgerNav" class="col-2 col-sm-2 col-sm-pull-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" alt="" width="30" height="24" class="d-inline-block align-text-top" onclick="onClick()">
+                </div>
+                <div   style="margin-top: 1rem;" id="DropDownMenu" class="col-12 col-sm-12 col-md-4 col-sm-push-2 col-lg-3 col-xl-3 col-xxl-3">
+                    <ul id ="NavigationMenu"  style="display:none;">
+                    <li class="px-3" ><a href="Blog.html">Blog</a></li>
+                    <li class="px-3" ><a href="About.html">About</a></li>
+                    <li class="px-3" ><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container-fluid">
+            <div class="row">      
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <p id= "TextSpacing" class="h4">The Local Sneaker Culture As Told by a Newbie Sneakerhead</p>
+                        <p id= "SubTitle">08/09/2022 · 1 min read</p>
+                    </div>
+                </div> 
+         
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 content-BLOG">
+                            <p class="text-justify content-BLOG ">I've always been into sneakers, but I've been a lowkey, suppressed fan. I was told I shouldn't get into it. It's not practical, they said. But I've always enjoyed looking at 
+                                them whenever I passed by any store that sells them, especially basketball shoes. As Filipinos, basketball has been in our system since the Americans taught us their sport. As long as you're in the Philippines, 
+                                the culture is part of everyday life. All you have to do is to look at people's feet to see it.</p>
+                        </div>    
+
+                <div id="BlogContainer"class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <p class="text-center"><img class="BLOGPIC" src="blogpic3.jpg" ></p>
+                </div>    
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 content-BLOG">
+                    <p class="text-justify">The earliest encounter I had with the local sneaker culture was during a trip to Germany in 2015. Adidas just relaunched their iconic Superstars and all the Germans around me were wearing those 80's basketball shoes. We saw them again in Singapore during a layover. When my brother bought a pair, the shop owner told him, "Congratulations! You are the first person to buy the Superstars in my shop." We didn't really know how much it meant until the school year resumed. He was the only one wearing the Superstars on campus. Heads turned. Jaws dropped. Strangers asked him where he got them. One week later, the Superstars reached the Philippines, and everyone started wearing 
+                        them—even those not into basketball. It's when I realized that Filipinos really are into sneakers. However, it was only last year that I really got into the culture. The lockdown happened and I spent my free time looking into the world of sneakers. Oh boy. It runs much deeper than I anticipated. People couldn't play ball, but they could go out and wear the latest sneakers instead. That's what I did. I embraced how much I love sneakers. When I bought my Air Jordan 1 Reverse Bred Low, I became what people called a Sneakerhead. Anyone can be a Sneakerhead, even your everyday Juan Dela Cruz. If Juan Dela Cruz loves basketball, he knows the sneaker culture. He sees a shoe he likes, and he'll get it, even 
+                        if it's fake. What matters is he has one. What makes sneakers such a big part of life is simple—they are part of every day, even if you don't realize it. It's hard not to see people wearing basketball sneakers anywhere you go. Sneaker culture isn't hard to understand either. If you seriously debated what shoes you're going to wear for the day, you thought like a Sneakerhead.</p>    
+                </div>  
+
+            </div>    
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <form action="" class="footer-left">
+                        <h4 class="contact-text">Get our weekly newsletter:</h4><br>
+                        <input type="Name" class="inputfield" placeholder="Your email address"><br>
+                        <button class="btn-text">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <ul class="footer-links">
+                    <li><a href="www.facebook.com"><img src="icon-facebook.png" class="icons"></a></li>
+                    <li><a href="www.instagram.com"><img src="icon-instagram.png" class="icons"></a></li>
+                    <li><a href="www.twitter.com"><img src="icon-twitter.png" class="icons"></a></li>
+                    </ul>
+                </div>
+            </div>
+           </footer>
+        
+           <script>  
+                function onClick(){
+                    var navigation = document.getElementById("NavigationMenu");
+
+                    if (navigation.style.display === "none") 
+                    {
+                        navigation.style.display = "flex";
+                    }
+                    else 
+                    {
+                        navigation.style.display = "none";
+                    }
+                }
+          </script>
+    </body>
+</html>
